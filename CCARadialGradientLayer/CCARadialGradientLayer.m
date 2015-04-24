@@ -25,6 +25,8 @@
 //  THE SOFTWARE.
 //
 
+#import "CCARadialGradientLayer.h"
+
 struct CCARadialGradientLayerProperties
 {
     __unsafe_unretained NSString *gradientOrigin;
@@ -39,8 +41,6 @@ const struct CCARadialGradientLayerProperties CCARadialGradientLayerProperties =
     .colors = @"colors",
     .locations = @"locations",
 };
-
-#import "CCARadialGradientLayer.h"
 
 @implementation CCARadialGradientLayer
 
